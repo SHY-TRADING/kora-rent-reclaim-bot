@@ -86,3 +86,6 @@ kora-rent-reclaim-bot/
 ```bash
 npm install
 npm run start
+
+
+For a detailed explanation of the bot’s design and operation, see [DEEP_DIVE.md](./DEEP_DIVE.md)
