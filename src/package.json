@@ -1,0 +1,18 @@
+{
+  "name": "kora-rent-reclaim-bot",
+  "version": "1.0.0",
+  "description": "Automated bot to reclaim locked rent SOL from Kora-sponsored Solana accounts",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.73.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
