@@ -68,22 +68,21 @@ Due to the absence of direct access to a live Kora operator environment, sponsor
 ---
 
 ## Project Structure
-kora-rent-reclaim-bot/ ├── src/ │   ├── index.ts │   ├── solana.ts │   ├── monitor.ts │   ├── reclaim.ts │   └── logger.ts ├── data/ │   └── sponsoredAccounts.json ├── README.md ├── package.json ├── tsconfig.json └── .env.example
-Copy code
-
----
-
+kora-rent-reclaim-bot/
+├── src/
+│   ├── index.ts
+│   ├── solana.ts
+│   ├── monitor.ts
+│   ├── reclaim.ts
+│   └── logger.ts
+├── data/
+│   └── sponsoredAccounts.json
+├── README.md
+├── package.json
+├── tsconfig.json
+└── .env.example
 ## How to Run (Devnet)
+
 ```bash
 npm install
 npm run start
-The bot is intended to be run periodically using a cron job.
-Limitations
-Sponsored accounts are simulated for demonstration purposes
-No frontend interface is provided
-Production deployment would require secure key management and real Kora operator access
-Future Improvements
-Direct Kora API integration
-Telegram or email alerts
-Dashboard for rent monitoring
-Support for multiple operator wallets
